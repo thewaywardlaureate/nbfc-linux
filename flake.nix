@@ -21,6 +21,7 @@
 
           nativeBuildInputs = with pkgs; [
             autoreconfHook
+            python3
           ];
           configureFlags = [
             "--prefix=${placeholder "out"}"
